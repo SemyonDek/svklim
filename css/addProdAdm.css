@@ -1,0 +1,162 @@
+button.update {
+    font-size: 14px;
+    height: 44px;
+    width: 240px;
+    display: block;
+    color: #fff;
+    background: #0da7e7;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.file_photo {
+    margin-top: 20px;
+}
+
+input[type=file] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #0da7e7;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+  
+input[type=file]::file-selector-button:hover, input.button:hover {
+    background: #66afe9;
+}
+
+.list-photo > div {
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    margin-right: 10px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.list-photo > div.active-photo {
+    border: 1px solid #006cc0;
+}
+
+.delPhoto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.delPhoto:active {
+    font-size: 13px;
+}
+
+.left-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-basic {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #353535;
+    /* padding: 0 15px; */
+    /* padding-left: 38px; */
+}
+
+
+.input-basic:focus {
+    background: #fff;
+    border: 1px solid #66afe9;
+    box-shadow: 0 0 10px rgba(13, 167, 231, 0.3);
+    outline: 0 none;
+}
+
+#title-category > .layout{
+    width: 20%;
+}
+
+textarea.input-basic {
+    padding: 10px 15px;
+    height: auto;
+}
+
+.parametrs-prod > li {
+    display: flex;
+    align-items: center;
+}
+
+.parametrs-prod > li > span:nth-child(2) {
+    max-width: 43%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.add_photo {
+    font-size: 14px;
+    height: 30px;
+    width: 240px;
+    display: block;
+    color: #fff;
+    background: #0da7e7;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#phot_prod_add {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.photo_add {
+    width: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-right: 10px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+button.del_photo {
+    padding: 0;
+    background-color: #0da7e7;
+    color: white;
+    font-family: Acrom;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+}

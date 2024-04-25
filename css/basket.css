@@ -1,0 +1,187 @@
+#basket-body {
+    padding: 65px 0;
+}
+
+#basket-table {
+    width: 100%;
+    border: 1px solid #edeef0;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+tr {
+    border-bottom: 1px solid #edeef0;;
+}
+
+thead td {
+    padding: 40px 0 20px 0;
+}
+
+td.clear {
+    width: 4%;
+}
+
+td.img {
+    width: 5%;
+}
+
+td.name {
+    width: 52%;
+}
+
+td.name h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+td.quantity {
+    width: 15%;
+}
+
+td.price {
+    width: 15%;
+}
+
+td.del {
+    width: 5%;
+}
+
+tbody td {
+    padding: 17px 0;
+    max-height: 50px;
+}
+
+td.img img {
+    width: 100%;
+    height: auto;
+}
+
+td.name {
+    padding-left: 30px;
+}
+
+.div-td-basket-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    background-color: #f9f9f9;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-image: url('../img/main/icon-basket.png');
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-btn {
+    display: table-cell;
+    width: 1%;
+    vertical-align: middle;
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.minus, .plus {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    font-weight: 100;
+    color: #666;
+    text-align: center;
+    display: block;
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome,sans-serif;
+    font-size: inherit;
+}
+
+.fa-minus:before {
+    content: "\f068";
+}
+
+.fa-plus:before {
+    content: "\f067";
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    margin-bottom: 0;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    border-left: none;
+    border-right: none;
+}
+
+.countAddProd {
+    width: 100%!important;
+}
+
+td.price {
+    text-align: right;
+    font-size: 14px;
+}
+
+td.price > span {
+    color: #666666;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+td.del {
+    text-align: right;
+}
+
+.delProdBasket {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+tfoot td {
+    padding: 17px 0;
+    height: 50px;
+}
+
+tfoot td.quantity {
+    text-align: right;
+}
+
+#basket-form > button {
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 35px;
+    width: 240px;
+    display: block;
+    color: #fff;
+    background: #0da7e7;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+    float: right;
+}

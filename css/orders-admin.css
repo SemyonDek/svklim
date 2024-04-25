@@ -1,0 +1,23 @@
+.input-basic {
+   padding-left: 15px; 
+}
+
+button {
+    font-size: 16px;
+    height: 40px;
+    width: 140px;
+    display: block;
+    color: #fff;
+    background: #0da7e7;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+    float: right;
+}
+
+.quantity span {
+    color: #666666;
+    font-weight: bold;
+    font-size: 18px;
+}

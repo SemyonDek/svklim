@@ -1,0 +1,39 @@
+.prod-item-block > div:first-child {
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    position: relative;
+}
+
+.prod-caption {
+    color: #0da7e7;
+}
+
+button.delProd {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+button.delProd:active {
+    font-size: 13px;
+}
+
+button.update {
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 44px;
+    width: 240px;
+    display: block;
+    color: #fff;
+    background: #0da7e7;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
